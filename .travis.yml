@@ -1,0 +1,10 @@
+language: python
+python:
+     -"3.7"
+cache: pip
+#command to install dependencies
+before_script:
+  - easy_install distribute
+  - pip install -r requirements.txt
+script:
+  - python <demofile.py>
