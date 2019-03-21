@@ -7,4 +7,4 @@ before_script:
   - easy_install distribute
   - pip install -r requirements.txt
 script:
-  - python <demofile.py>
+  - python demofile.py
